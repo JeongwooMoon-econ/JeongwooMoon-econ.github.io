@@ -206,18 +206,18 @@ p {
 .title-box {
   font-size: 1.1rem;
   font-weight: 500;
-  text-transform:uppercase;
-  color:#3b3939;
+  text-transform: uppercase;
+  color: #3b3939;
   margin-top: 2rem;
 }
 
 .contact-box {
-  
+
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
 }
 
-.contact-box p{
+.contact-box p {
   font-size: 1.1rem;
 }
 
@@ -278,7 +278,7 @@ p {
   text-decoration: none;
 }
 
-.disclaimer{
+.disclaimer {
   font-size: 1rem;
   color: #000000;
   margin-top: 1.5rem;
@@ -286,12 +286,16 @@ p {
 }
 
 .disabled {
-  pointer-events: none;     /* Prevents any clicking */
-  color: #1a1919;              /* Dark gray text */
-  border: 1px none #aaa;   /* Optional: lighter border */
+  pointer-events: none;
+  /* Prevents any clicking */
+  color: #1a1919;
+  /* Dark gray text */
+  border: 1px none #aaa;
+  /* Optional: lighter border */
   background-color: transparent;
   cursor: default;
-  opacity: 0.8;             /* Slightly faded */
+  opacity: 0.8;
+  /* Slightly faded */
 }
 
 .disabled:hover {
