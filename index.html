@@ -1,15 +1,142 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>Jeongwoo Moon (ECON)</title>
-<!--   <link rel="icon" type="image/x-icon" href="/images/favicon.ico"/> -->
-<!--   <link rel="icon" type="image/png" href="/images/favicon.png"/> -->
-<!--   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <meta http-equiv="refresh" content="0; url=https://www.jeongwoomoon.com/" /> -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeongwoo Moon</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<h1> </h1>
-<p> This page is supposed to be empty.</p>
-<!-- <a href="https://www.jeongwoomoon.com/">https://www.jeongwoomoon.com</a> -->
+  <div class="container">
+
+    <div class="header-container">
+      <div class="profile-photo">
+        <img src="profile_photo/JM_photo3.jpg" alt="Jeongwoo Moon">
+      </div>
+
+      <div class="profile-info">
+        <div class="name-box">Jeongwoo Moon</div>
+
+        <div class="title-box">
+          (Incoming) Senior Economist, Bank of Canada<br>
+          Ph.D. The Ohio State University, 2025
+        </div>
+
+        <div class="contact-box">
+
+          <!-- <p>Contact:<a href="mailto:jmoon.econ@gmail.com" target="_blank">jmoon.econ [at] gmail.com</a></p> -->
+          <p>Contact: jmoon.econ [at] gmail.com</p>
+        </div>
+        <div class="links-box">
+          <div class="links-subbox">
+            <p><a href="CV_JeongwooMoon.pdf">Curriculum Vitae (CV)</a>
+              <a href="#research">Research</a>
+              <a href="teaching.html">Teaching</a>
+            </p>
+          </div>
+          <!-- <div class="links-subbox">
+            <p><a href="teaching.html">Teaching</a>
+            </p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+
+    <div class="disclaimer">
+      <h4>Disclaimer</h4>
+      <p>
+      The views expressed on this website are my own and do not necessarily reflect the views of the Bank of Canada.
+      This website is not an official publication of the Bank of Canada.
+      </p>
+    </div>
+
+
+
+
+    <section id="research">
+      <h2>Research</h2>
+
+      <div class="paper-entry">
+        <span class="paper-title">"Bank Deposit Mix and Aggrgate Implications for Financial Stability"</span><br>
+        <a class="toggle-button" href="https://jeongwoomoon-econ.github.io/JMP_JeongwooMoon.pdf" target="_blank">[paper]</a>
+        <button class="toggle-button" onclick="toggleAbstract(this)">[abstract]</button>
+        <div class="abstract-text" style="display: none;">
+          <p>
+            <img src="figs/1_Deposits_mod_avgt.png" alt="DepositMix">
+            This paper examines the implications of banks' deposit mix and liquidity risk across the bank size
+            distribution for financial stability and macro-prudential policy. U.S. banks mix savings and time deposits,
+            with the share of savings deposits increasing in bank size. I incorporate this in a macroeconomic model of
+            banking industry dynamics, where heterogeneous banks choose their deposit mix and asset portfolio under
+            withdrawal risk in savings deposits. Repayment of withdrawals incentivizes banks to hold securities. Costly
+            time deposits protect against withdrawals and enable banks to substitute loans for securities. Withdrawal
+            risk
+            varies by bank size, explaining the balance sheet composition of assets and deposits, as observed in data. A
+            higher share of savings deposits coming from the low withdrawal risk reduces the average funding cost,
+            expands
+            the banking sector, and increases loans and output in the steady state but raises short-term financial
+            instability. When liquidity requirements are introduced, large banks are the most responsive; they increase
+            demand for securities and cut loan supply, leading to an unintended output cost associated with a less
+            concentrated banking sector in the long run.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="paper-entry">
+        <span class="paper-title">"Pause, Reactivation, and Firm Dynamics"</span><br>
+        <a class="toggle-button" href="https://jeongwoomoon-econ.github.io/PR_JeongwooMoon.pdf" target="_blank">[paper]</a>
+        <button class="toggle-button" onclick="toggleAbstract(this)">[abstract]</button>
+        <div class="abstract-text" style="display: none;">
+          <p>
+            <img src="figs/frac_reactivation.png" alt="Reactivation">
+            This paper examines the macroeconomic impact of allowing production units to pause and reactivate their
+            operations. The ability to pause and resume leads to fewer active firms, which alters the productivity
+            distribution. The capital held by firms that choose to pause suggests a new source of capital misallocation.
+            I
+            develop a dynamic stochastic general equilibrium model featuring heterogeneous firms that can temporarily
+            shut
+            down their operations. The number of reactivated units from temporary shutdowns is aligned with data from
+            U.S.
+            establishments. In equilibrium, there are fewer active firms compared to a model that does not incorporate
+            this option. This change results in a decline in aggregate productivity and other aggregate variables. The
+            reduction in the number of active firms is the primary driver of the observed effects.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="paper-entry">
+        <span class="paper-title">"Income-based Unsecured Credit and Business Cycles"</span><br>
+        <a class="toggle-button disabled" href="" target="_blank">[paper]</a>
+        <button class="toggle-button disabled" onclick="toggleAbstract(this)">[abstract]</button>
+        <div class="abstract-text" style="display: none;">
+          <p>
+            I examine how unsecured credit limits for different households affect business cycles. Credit limits
+            increase
+            with household income, aligning with default risk literature. When income-based credit limits are applied in
+            models with heterogeneous households, aggregate consumption reacts more strongly to productivity shocks.
+            Low-income households face tighter credit limits and have a higher marginal propensity to consume, making
+            aggregate consumption more responsive. Additionally, I explore how credit shocks impact business cycles in a
+            production economy. A shock that tightens credit limits leads to expansion rather than a recession,
+            suggesting
+            a need to separate household savings from financial intermediaries’ loan supply to produce a recession
+            episode.
+          </p>
+        </div>
+      </div>
+
+
+    </section>
+
+  </div>
+
+
+
+  <script src="script.js"></script>
 </body>
+
 </html>
