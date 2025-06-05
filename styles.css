@@ -54,7 +54,7 @@ img.profile {
   }
 
   .profile-photo img {
-    max-width: 60%;
+    max-width: 100%;
     /* Responsive image size */
     height: auto;
   }
