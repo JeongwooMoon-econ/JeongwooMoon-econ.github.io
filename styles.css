@@ -49,7 +49,7 @@ img.profile {
     /* Flexbox it */
     justify-content: center;
     /* Center the image horizontally */
-    margin-bottom: 1rem;
+/*     margin-bottom: 1rem; */
     /* Optional spacing */
   }
 
