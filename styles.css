@@ -157,7 +157,7 @@ p {
 }
 
 .toggle-button:hover {
-  background-color: #afd3ee;
+  background-color: #cbdfee;
 }
 
 .abstract-text {
@@ -186,7 +186,7 @@ p {
 }
 
 .profile-photo img {
-  max-width: 270px;
+  max-width: 300px;
 }
 
 .profile-info>div {
@@ -206,8 +206,8 @@ p {
 .title-box {
   font-size: 1.1rem;
   font-weight: 500;
-  text-transform: uppercase;
-  color: #3b3939;
+  text-transform: normal;
+  color: #000000;
   margin-top: 2rem;
 }
 
