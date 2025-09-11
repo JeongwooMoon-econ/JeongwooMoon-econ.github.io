@@ -98,9 +98,9 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
   text-decoration: underline;
 }
 
@@ -112,14 +112,15 @@ h3 {
 }
 
 h4 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin-top: -0.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: -1.0rem;
+  text-decoration: underline;
   color: #000000;
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .basic-list {
@@ -139,8 +140,8 @@ p {
 }
 
 .paper-title {
-  font-weight: bold;
-  font-size: 1.2rem;
+  font-weight: normal;
+  font-size: 1.3rem;
   margin-right: 1rem;
 }
 
@@ -165,16 +166,20 @@ p {
 .abstract-text {
   margin-top: 0.5rem;
   padding-left: 1rem;
-  font-size: 0.95rem;
+  font-size: 1.0rem;
   color: #333;
 }
 
 .abstract-text p img {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   display: block;
   align-content: center;
   margin: 0.5rem auto;
+}
+
+.abstract-text p {
+  text-align:justify;
 }
 
 .header-container {
@@ -188,7 +193,7 @@ p {
 }
 
 .profile-photo img {
-  max-width: 300px;
+  max-width: 400px;
 }
 
 .profile-info>div {
@@ -198,7 +203,7 @@ p {
 
 /* Specific styles for each section */
 .name-box {
-  font-size: 1.8rem;
+  font-size: 2.0rem;
   color: #004F71;
   font-weight: bold;
   margin-bottom: 1rem;
@@ -206,7 +211,7 @@ p {
 }
 
 .title-box {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   text-transform: normal;
   color: #000000;
@@ -220,19 +225,19 @@ p {
 }
 
 .contact-box p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .links-box {
   /* display: flex; */
   /* align-items: flex-start; */
   /* gap: 5.5rem; */
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
 }
 
 .links-subbox a {
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: #004F71;
   display: block;
