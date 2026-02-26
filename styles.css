@@ -373,7 +373,7 @@ p {
 /* Specific styles for each section */
 .name-box {
   font-size: 1.85rem;
-  color: var(--color-primary);
+  color: var(--color-text);
   font-weight: 600;
   margin-bottom: 0.5rem;
   margin-top: 0rem;
@@ -381,17 +381,27 @@ p {
 }
 
 .title-box {
-  font-size: 1.1rem;
-  font-weight: 500;
-  text-transform: normal;
-  color: var(--color-text);
   margin-top: 1.25rem;
   line-height: 1.5;
 }
 
-.research-statement {
-  font-size: 1.05rem;
+.title-position {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.title-education {
+  font-size: 1rem;
+  font-weight: 400;
   color: var(--color-text-muted);
+  margin-top: 0.25rem;
+}
+
+.research-statement {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--color-text);
   margin-top: 1rem;
   max-width: 36em;
   line-height: 1.5;
