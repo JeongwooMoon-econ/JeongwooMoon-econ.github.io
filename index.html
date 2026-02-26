@@ -4,7 +4,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jeongwoo Moon — Senior Economist at the Bank of Canada. Ph.D. in Economics from The Ohio State University. Research in quantitative macro-finance, financial intermediation, and banking." />
+  <meta property="og:title" content="Jeongwoo Moon" />
+  <meta property="og:description" content="Senior Economist at the Bank of Canada. Ph.D. in Economics from The Ohio State University. Research in quantitative macro-finance, financial intermediation, and banking." />
+  <meta property="og:image" content="https://jeongwoomoon.com/photos/JM_photo4_adj.jpg" />
+  <meta property="og:url" content="https://jeongwoomoon.com/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jeongwoo Moon" />
+  <meta name="twitter:description" content="Senior Economist at the Bank of Canada. Ph.D. in Economics from The Ohio State University. Research in quantitative macro-finance, financial intermediation, and banking." />
+  <meta name="twitter:image" content="https://jeongwoomoon.com/photos/JM_photo4_adj.jpg" />
   <title>Jeongwoo Moon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -15,7 +28,7 @@
     <!-- Header Beginning -->
     <div class="header-container">
       <div class="profile-photo">
-        <img src="photos/JM_photo4_copy.jpg" alt="Jeongwoo Moon">
+        <img src="photos/JM_photo4_adj.jpg" alt="Jeongwoo Moon">
       </div>
 
       <div class="profile-info">
@@ -27,16 +40,17 @@
           The Ohio State University, 2025
         </div>
 
+        <div class="research-statement">
+          My research focuses on financial intermediation and banking in quantitative macro-finance.
+        </div>
+
         <div class="contact-box">
-          <!-- <p>Contact:<a href="mailto:jmoon.econ@gmail.com" target="_blank">jmoon.econ (at) gmail (dot) com</a></p> -->
-          <p>Contact: <br>
-          jmoon (at) bank-banque-canada (dot) com</p>
+          <p>Contact: <a href="mailto:jmoon@bankofcanada.ca">jmoon@bankofcanada.ca</a></p>
         </div>
 
         <div class="links-box">
           <div class="links-subbox">
-            <p><a href="https://jeongwoomoon-econ.github.io/CV_JeongwooMoon.pdf">Curriculum Vitae (CV)</a>
-              <a href="#research">Research</a>
+            <p><a href="https://jeongwoomoon-econ.github.io/CV_JeongwooMoon.pdf" target="_blank" rel="noopener noreferrer">Curriculum Vitae (CV)</a>
               <!-- <a href="teaching.html">Teaching</a> -->
             </p>
           </div>
@@ -52,55 +66,39 @@
 
 
     <!----------------------------------------------------------------------------------->
-    <!-- Disclaimer -->
-    <div class="disclaimer">
-      <h4>Disclaimer</h4>
-      <p>
-        The views expressed on this website are solely my own and do not necessarily represent those of the Bank of
-        Canada. This site is not an official publication of the Bank.
-      </p>
-    </div>
-    <!----------------------------------------------------------------------------------->
-
-
-    <!----------------------------------------------------------------------------------->
     <!-- Research Interests -->
     <section id="research">
       <h2>Research</h2>
 
-      <!-- Job Market Paper, Bank deposit mix -->
-      <oi>
-      <div class="paper-entry">
-        <li><span class="paper-title">Bank Deposit Mix and Aggregate Implications for Financial Stability</span></li>
-        <a class="toggle-button" href="https://jeongwoomoon-econ.github.io/papers/JMP_JM.pdf"
-          target="_blank">[paper]</a>
-        <button class="toggle-button" onclick="toggleAbstract(this)">[abstract]</button>
+      <h3 class="research-subsection">Working Papers</h3>
+      <ol>
+        <li class="paper-entry">
+          <div class="paper-header">
+            <span class="paper-title">Heterogeneous Withdrawal Risk and Aggregate Credit Dynamics</span>
+            <span class="paper-links">
+              <a class="toggle-button" href="https://jeongwoomoon-econ.github.io/papers/JMP_JM.pdf"
+                target="_blank" rel="noopener noreferrer">[PDF]</a>
+              <button class="toggle-button" onclick="toggleAbstract(this)">[abstract]</button>
+            </span>
+          </div>
+          <div class="paper-meta">previously circulated with title "Bank Deposit Mix and Aggregate Implications for Financial Stability".</div>
         <div class="abstract-text" style="display: none;">
           <p>
             <img src="figs/1_Deposits_mod_avgt.png" alt="DepositMix">
-            This paper examines the implications of banks' deposit mix and liquidity risk across the bank size
-            distribution for financial stability and macro-prudential policy. U.S. banks mix savings and time deposits,
-            with the share of savings deposits increasing in bank size. I incorporate this in a macroeconomic model of
-            banking industry dynamics, where heterogeneous banks choose their deposit mix and asset portfolio under
-            withdrawal risk in savings deposits. Repayment of withdrawals incentivizes banks to hold securities. Costly
-            time deposits protect against withdrawals and enable banks to substitute loans for securities. Withdrawal
-            risk varies by bank size, explaining the balance sheet composition of assets and deposits, as observed in
-            data. A higher share of savings deposits coming from the low withdrawal risk reduces the average funding
-            cost, expands the banking sector, and increases loans and output in the steady state but raises short-term
-            financial instability. When liquidity requirements are introduced, large banks are the most responsive; they
-            increase demand for securities and cut loan supply, leading to an unintended output cost associated with a
-            less concentrated banking sector in the long run.
+            Large banks rely predominantly on liquid deposits despite their exposure to withdrawal risk. Using U.S. Call Report data, I document a pronounced size gradient in deposit composition and flow volatility: large banks allocate more than 80 percent of deposits to liquid instruments yet experience substantially lower and less volatile outflows than small banks. To quantify the aggregate implications of heterogeneous withdrawal risk, I develop a general equilibrium model in which banks optimally choose deposit mix and liquidity buffers under stochastic withdrawals. Withdrawal shocks trigger mid-period asset liquidation, linking funding structure to bank capital dynamics and equilibrium credit supply. Heterogeneity expands credit in normal times but amplifies downturns. Granting large banks more stable funding increases steady-state lending; equalizing withdrawal risk reduces aggregate loans by 1 percent and output by 0.7 percent. However, because large banks operate with thinner liquidity buffers, adverse shocks force costly balance sheet adjustment toward stable funding and liquid assets, raising funding costs and crowding out loans. Output contractions are 60 percent larger than in an economy with uniform withdrawal risk. A Basel III-style liquidity requirement halves capital losses during withdrawal shocks but reduces steady-state loans by 4 percent and output by 3 percent. 
           </p>
         </div>
+        </li>
 
-      </div>
-
-      <!-- Pause and Reactivation -->
-      <div class="paper-entry">
-        <li>
-        <span class="paper-title">Pause, Reactivation, and Firm Dynamics</span></li>
-        <a class="toggle-button" href="https://jeongwoomoon-econ.github.io/papers/PR_JM.pdf" target="_blank">[paper]</a>
-        <button class="toggle-button" onclick="toggleAbstract(this)">[abstract]</button>
+        <!-- Pause and Reactivation -->
+        <li class="paper-entry">
+          <div class="paper-header">
+            <span class="paper-title">Pause, Reactivation, and Firm Dynamics</span>
+            <span class="paper-links">
+              <a class="toggle-button" href="https://jeongwoomoon-econ.github.io/papers/PR_JM.pdf" target="_blank" rel="noopener noreferrer">[PDF]</a>
+              <button class="toggle-button" onclick="toggleAbstract(this)">[abstract]</button>
+            </span>
+          </div>
         <div class="abstract-text" style="display: none;">
           <p>
             <img src="figs/frac_reactivation.png" alt="Reactivation">
@@ -108,37 +106,45 @@
             operations. The ability to pause and resume leads to fewer active firms, which alters the productivity
             distribution. The capital held by firms that choose to pause suggests a new source of capital misallocation.
             I develop a dynamic stochastic general equilibrium model featuring heterogeneous firms that can temporarily
-            shutdown their operations. The number of reactivated units from temporary shutdowns is aligned with data
+            shut down their operations. The number of reactivated units from temporary shutdowns is aligned with data
             from U.S. establishments. In equilibrium, there are fewer active firms compared to a model that does not
             incorporate this option. This change results in a decline in aggregate productivity and other aggregate
             variables. The reduction in the number of active firms is the primary driver of the observed effects.
           </p>
         </div>
-      </div>
+        </li>
 
-      <!-- Income-based borrowing limit -->
-      <div class="paper-entry">
-        <li>
-        <span class="paper-title">Income-based Unsecured Credit and Business Cycles</span></li>
-        <a class="toggle-button disabled" href="" target="_blank">[paper]</a>
-        <button class="toggle-button disabled" onclick="toggleAbstract(this)">[abstract]</button>
-        <div class="abstract-text" style="display: none;">
-          <p>
-            I examine how unsecured credit limits for different households affect business cycles. Credit limits
-            increase with household income, aligning with default risk literature. When income-based credit limits are
-            applied in models with heterogeneous households, aggregate consumption reacts more strongly to productivity
-            shocks. Low-income households face tighter credit limits and have a higher marginal propensity to consume,
-            making aggregate consumption more responsive. Additionally, I explore how credit shocks impact business
-            cycles in a production economy. A shock that tightens credit limits leads to expansion rather than a
-            recession, suggesting a need to separate household savings from financial intermediaries' loan supply to
-            produce a recession episode.
-          </p>
-        </div>
-      </div>
-      </oi>
+      </ol>
 
+      <h3 class="research-subsection">Work in Progress</h3>
+      <ul class="wip-list">
+        <!-- <li class="wip-entry">
+          <span class="paper-title">Precautionary Pricing, Dispersion, and Pass-through in Loan Markets</span>
+          <div class="paper-meta">With Kyle Dempsey and Miguel Faria-e-Castro</div>
+        </li> -->
 
+        <!-- <li class="wip-entry">
+          <span class="paper-title">Inheriting Mortality Rates</span>
+          <div class="paper-meta">With Vaasavi Unnava</div>
+        </li> -->
+
+        <li class="wip-entry">
+          <span class="paper-title">Income-based Unsecured Credit and Business Cycles</span>
+          <!-- <div class="paper-meta">With [Coauthor names].</div> -->
+        </li>
+      </ul>
     </section>
+    <!----------------------------------------------------------------------------------->
+
+
+    <!----------------------------------------------------------------------------------->
+    <!-- Disclaimer -->
+    <div class="disclaimer">
+      <p>
+        The views expressed on this website are solely my own and do not necessarily represent those of the Bank of
+        Canada. This site is not an official publication of the Bank.
+      </p>
+    </div>
     <!----------------------------------------------------------------------------------->
   </div>
 
