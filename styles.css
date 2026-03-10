@@ -235,7 +235,8 @@ h2 {
   padding-bottom: 0.5rem;
 }
 
-section#research h2 {
+section#research h2,
+section#teaching h2 {
   font-weight: 500;
 }
 
@@ -534,7 +535,32 @@ p {
 
 .teaching-entry {
   margin-bottom: 1.5rem;
-  line-height: 1.2;
+  line-height: 1.5;
+}
+
+.teaching-institution {
+  font-size: 1.15rem;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--color-text);
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.teaching-role {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  margin-top: 1.5rem;
+  margin-bottom: 0.35rem;
+}
+
+.teaching-role:first-of-type {
+  margin-top: 0;
+}
+
+.teaching-entry .basic-list {
+  margin-bottom: 0;
 }
 
 .highlight-box {
@@ -577,5 +603,24 @@ p {
 .disabled:hover {
   background-color: transparent;
   color: #252525;
+  text-decoration: none;
+}
+
+.note-access {
+  margin-top: 3rem;
+}
+
+.note-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.note-link:visited {
+  color: #fff;
+}
+
+.note-link:hover,
+.note-link:focus {
+  color: #fff;
   text-decoration: none;
 }
